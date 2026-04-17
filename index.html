@@ -3,7 +3,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Калина Експрес — Українські продукти в Торрев'єсі</title>
+  <title>Kalyna Express — Украинские продукты в Торревьехе | Tienda Ucraniana Torrevieja</title>
+  <meta name="description" content="Украинские продукты в Торревьехе: гречка, колбасы, сметана, чёрный хлеб, сладости Рошен. То, чего нет в испанских магазинах — есть у нас. Доставка. ☎ +34 685 742 111" />
+  <meta name="keywords" content="украинские продукты Торревьеха, tienda ucraniana Torrevieja, гречка Испания, краковская колбаса Испания, Roshen Испания, ukraiński sklep Torrevieja, Kalyna Express, украинский магазин Аликанте, продукты которых нет в испании" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Kalyna Express" />
+  <link rel="canonical" href="https://kalynaexpress.es" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kalynaexpress.es" />
+  <meta property="og:title" content="Kalyna Express — Украинские продукты в Торревьехе" />
+  <meta property="og:description" content="Гречка, краковская колбаса, сметана, чёрный хлеб, Рошен — всё, чего не найти в испанских магазинах. Торревьеха, Аликанте." />
+  <meta property="og:image" content="https://kalynaexpress.es/logo.png" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:locale:alternate" content="uk_UA" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kalyna Express — Украинские продукты в Торревьехе" />
+  <meta name="twitter:description" content="Гречка, колбасы, сметана, хлеб — как дома. Торревьеха, Испания. +34 685 742 111" />
+  <meta name="twitter:image" content="https://kalynaexpress.es/logo.png" />
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GroceryStore",
+    "name": "Kalyna Express",
+    "alternateName": ["Калина Экспресс", "Калина Експрес"],
+    "description": "Магазин украинских продуктов в Торревьехе, Испания. Гречка, краковская колбаса, сметана, чёрный хлеб, сладости Рошен — всё, что сложно найти в Испании.",
+    "url": "https://kalynaexpress.es",
+    "telephone": "+34685742111",
+    "email": "Kalyna.express.es@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Torrevieja",
+      "addressRegion": "Alicante",
+      "postalCode": "03180",
+      "addressCountry": "ES"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 37.9784, "longitude": -0.6820 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "20:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "18:00" }
+    ],
+    "priceRange": "€",
+    "currenciesAccepted": "EUR",
+    "sameAs": ["https://www.instagram.com/kalynaexpress.es","https://www.facebook.com/share/1PEbENPBJt/","https://t.me/kalyna_express"]
+  }
+  </script>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -53,17 +100,31 @@
     <div class="container hero__inner">
       <div class="hero__content">
         <div class="hero__badge" data-i18n="hero_badge">🇺🇦 Торрев'єха, Іспанія</div>
-        <h1 class="hero__title">
+        <h1 class="hero__title" style="margin-bottom:16px">
           <span data-i18n="hero_title1">Смак дому —</span><br />
           <span class="hero__title-accent" data-i18n="hero_title_accent">прямо в Іспанії</span>
         </h1>
+        <div class="hero__specifics">
+          <div class="hero__specific-item">
+            <span class="hero__specific-icon">🔍</span>
+            <span data-i18n="hero_specific1">Продукти з України, яких немає в Іспанії</span>
+          </div>
+          <div class="hero__specific-item">
+            <span class="hero__specific-icon">🍽️</span>
+            <span data-i18n="hero_specific2">Гречка, ковбаси, солодощі — як вдома</span>
+          </div>
+        </div>
         <p class="hero__desc" data-i18n="hero_desc">
           Справжні українські продукти, ковбаси, молочні вироби, хліб та делікатеси.
           Усе те, за чим ви сумуєте — тепер поруч у Торрев'єсі.
         </p>
         <div class="hero__actions">
           <a href="#products" class="btn btn--primary btn--lg" data-i18n="btn_catalog">Переглянути асортимент</a>
-          <a href="#contact"  class="btn btn--outline btn--lg" data-i18n="btn_find">Як нас знайти</a>
+          <a href="https://wa.me/34685742111" target="_blank" class="btn btn--whatsapp btn--lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <span data-i18n="whatsapp_btn">WhatsApp</span>
+          </a>
+          <a href="#contact" class="btn btn--outline btn--lg" data-i18n="btn_find">Як нас знайти</a>
         </div>
         <div class="hero__stats">
           <div class="stat">
@@ -192,6 +253,7 @@
       </div>
       <div class="products__grid">
         <div class="product-card">
+          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1544025162-d76694265947?w=500&h=200&fit=crop&q=80')" role="img" aria-label="М'ясні вироби"></div>
           <div class="product-card__icon">🥩</div>
           <h3 class="product-card__title" data-i18n="cat1_title">М'ясні вироби</h3>
           <p class="product-card__desc" data-i18n="cat1_desc">Ковбаси, сало, буженина, тушонка, паштети. Усе як вдома.</p>
@@ -203,6 +265,7 @@
           </ul>
         </div>
         <div class="product-card product-card--featured">
+          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Хліб"></div>
           <div class="product-card__badge" data-i18n="prod_popular_badge">Популярне</div>
           <div class="product-card__icon">🍞</div>
           <h3 class="product-card__title" data-i18n="cat2_title">Хліб та випічка</h3>
@@ -215,6 +278,7 @@
           </ul>
         </div>
         <div class="product-card">
+          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1559561853-08451507cbe7?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Молочні продукти"></div>
           <div class="product-card__icon">🧀</div>
           <h3 class="product-card__title" data-i18n="cat3_title">Молочні продукти</h3>
           <p class="product-card__desc" data-i18n="cat3_desc">Сметана, творог, кефір, масло, сири — справжній смак молока.</p>
@@ -226,6 +290,7 @@
           </ul>
         </div>
         <div class="product-card">
+          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1534483509719-3feaee7c30da?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Консервація"></div>
           <div class="product-card__icon">🥒</div>
           <h3 class="product-card__title" data-i18n="cat4_title">Консервація</h3>
           <p class="product-card__desc" data-i18n="cat4_desc">Мариновані огірки, помідори, гриби, варення та соки.</p>
@@ -237,6 +302,7 @@
           </ul>
         </div>
         <div class="product-card">
+          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Крупи"></div>
           <div class="product-card__icon">🌾</div>
           <h3 class="product-card__title" data-i18n="cat5_title">Крупи та борошно</h3>
           <p class="product-card__desc" data-i18n="cat5_desc">Гречка, пшоно, манка, вівсянка, борошно першого ґатунку.</p>
@@ -248,6 +314,7 @@
           </ul>
         </div>
         <div class="product-card">
+          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Солодощі"></div>
           <div class="product-card__icon">🍬</div>
           <h3 class="product-card__title" data-i18n="cat6_title">Солодощі</h3>
           <p class="product-card__desc" data-i18n="cat6_desc">Цукерки Рошен, халва, козинаки, вафлі та шоколад.</p>
@@ -414,15 +481,22 @@
           </div>
         </div>
         <div class="contact__map">
-          <div class="map-placeholder">
-            <div class="map-placeholder__inner">
-              <span class="map-placeholder__pin">📍</span>
-              <strong data-i18n="map_strong">Калина Експрес</strong>
-              <p>Torrevieja, Alicante</p>
-              <a href="https://maps.google.com" target="_blank" class="btn btn--primary btn--sm" data-i18n="map_link">
-                Відкрити в Google Maps
-              </a>
-            </div>
+          <div class="map-wrap">
+            <iframe
+              src="https://maps.google.com/maps?q=Torrevieja,+Alicante,+Spain&z=14&output=embed"
+              width="100%" height="100%"
+              style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Kalyna Express на карте"></iframe>
+          </div>
+          <div class="map-actions">
+            <a href="https://maps.google.com/maps?q=Torrevieja,+Alicante,+Spain" target="_blank" class="btn btn--primary btn--sm" data-i18n="map_link">
+              📍 Відкрити в Google Maps
+            </a>
+            <a href="https://wa.me/34685742111?text=Hola!%20Как%20к%20вам%20добраться%3F" target="_blank" class="btn btn--whatsapp btn--sm">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              <span data-i18n="whatsapp_directions">Спитати як дістатись</span>
+            </a>
           </div>
         </div>
       </div>
@@ -475,6 +549,11 @@
   </footer>
 
   <a href="#" class="scroll-top" id="scrollTop" aria-label="↑">↑</a>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/34685742111" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
 
   <script src="script.js"></script>
 </body>
