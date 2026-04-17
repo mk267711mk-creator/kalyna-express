@@ -154,8 +154,14 @@ ul { list-style: none; }
   height: 74px;
 }
 
-.logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-.logo__img { height: 50px; width: auto; object-fit: contain; }
+.logo { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.logo__img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
 .logo__icon { font-size: 28px; }
 .logo__text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo__text--fallback { display: flex; flex-direction: row; align-items: center; gap: 8px; }
@@ -940,7 +946,7 @@ ul { list-style: none; }
 }
 .footer .logo__name { color: var(--white); }
 .footer .logo__tagline { color: rgba(255,255,255,.45); }
-.logo__img--footer { opacity: .96; }
+.logo__img--footer { opacity: .96; border: 2px solid rgba(255,255,255,.14); }
 .footer__brand-desc { margin-top: 14px; font-size: 14px; color: rgba(255,255,255,.45); line-height: 1.7; }
 .footer__links h4, .footer__contact h4 {
   font-size: 11px;

@@ -1,26 +1,26 @@
 <svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="footerLogoTitle footerLogoDesc">
   <title id="footerLogoTitle">Kalyna Express footer logo</title>
-  <desc id="footerLogoDesc">White Kalyna Express wordmark with cherries icon for dark backgrounds.</desc>
+  <desc id="footerLogoDesc">Kalyna Express wordmark with a minimal cherry badge for dark backgrounds.</desc>
   <defs>
-    <linearGradient id="footerCherryRed" x1="22" y1="44" x2="76" y2="88" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF6B6B"/>
-      <stop offset="1" stop-color="#D1192F"/>
+    <linearGradient id="footerBadgeBg" x1="18" y1="16" x2="82" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3F0E8"/>
+      <stop offset="1" stop-color="#E9E3D7"/>
     </linearGradient>
-    <linearGradient id="footerLeafGreen" x1="54" y1="18" x2="84" y2="40" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#92D364"/>
-      <stop offset="1" stop-color="#4D9B2F"/>
+    <linearGradient id="footerBerryFill" x1="30" y1="40" x2="60" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6C96"/>
+      <stop offset="1" stop-color="#D91F59"/>
     </linearGradient>
   </defs>
   <g>
-    <path d="M50 16C50 24 49 31 48 38" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
-    <path d="M48 38C41 42 35 51 31 63" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
-    <path d="M48 38C57 43 64 52 68 64" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
-    <path d="M55 17C64 10 76 11 83 19C76 24 65 25 57 23C53 22 52 19 55 17Z" fill="url(#footerLeafGreen)"/>
-    <circle cx="30" cy="74" r="18" fill="url(#footerCherryRed)"/>
-    <circle cx="66" cy="74" r="18" fill="url(#footerCherryRed)"/>
-    <circle cx="24" cy="68" r="5.5" fill="#FFD0D4" fill-opacity="0.7"/>
-    <circle cx="60" cy="68" r="5.5" fill="#FFD0D4" fill-opacity="0.65"/>
+    <circle cx="50" cy="50" r="32" fill="url(#footerBadgeBg)"/>
+    <path d="M43 38C42 34 40 30 37 28" stroke="#A8C76A" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M48 38C50 33 53 29 57 26" stroke="#A8C76A" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M48 28C52 26 56 27 59 31C55 33 51 33 48 31C47 30 47 29 48 28Z" fill="#A8C76A"/>
+    <circle cx="39" cy="51" r="8.5" fill="url(#footerBerryFill)"/>
+    <circle cx="54" cy="51" r="8.5" fill="url(#footerBerryFill)"/>
+    <circle cx="36.5" cy="48.5" r="2.3" fill="#FFD4E1" fill-opacity="0.85"/>
+    <circle cx="51.5" cy="48.5" r="2.3" fill="#FFD4E1" fill-opacity="0.85"/>
   </g>
-  <text x="110" y="55" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0.5">Kalyna Express</text>
-  <text x="110" y="84" fill="rgba(255,255,255,0.72)" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500">Ukrainian products in Torrevieja</text>
+  <text x="100" y="48" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0.2">Kalyna Express</text>
+  <text x="100" y="76" fill="rgba(255,255,255,0.72)" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500">Ukrainian products in Torrevieja</text>
 </svg>
