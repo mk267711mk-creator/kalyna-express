@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Калина Експрес — Українські продукти в Торрев'єсі</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__icon">🌿</span>
+        <div class="logo__text">
+          <span class="logo__name">Калина Експрес</span>
+          <span class="logo__tagline">Українські продукти</span>
+        </div>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav__link">Про нас</a>
+        <a href="#products" class="nav__link">Продукти</a>
+        <a href="#why-us" class="nav__link">Переваги</a>
+        <a href="#contact" class="nav__link">Контакти</a>
+      </nav>
+      <a href="#contact" class="btn btn--primary header__cta">Знайти нас</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="hero__blob hero__blob--1"></div>
+      <div class="hero__blob hero__blob--2"></div>
+      <div class="hero__blob hero__blob--3"></div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge">🇺🇦 Торрев'єса, Іспанія</div>
+        <h1 class="hero__title">
+          Смак дому —<br />
+          <span class="hero__title-accent">прямо в Іспанії</span>
+        </h1>
+        <p class="hero__desc">
+          Справжні українські продукти, ковбаси, молочні вироби, хліб та делікатеси.
+          Усе те, за чим ви сумуєте — тепер поруч у Торрев'єсі.
+        </p>
+        <div class="hero__actions">
+          <a href="#products" class="btn btn--primary btn--lg">Переглянути асортимент</a>
+          <a href="#contact" class="btn btn--outline btn--lg">Як нас знайти</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">500+</span>
+            <span class="stat__label">товарів</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">5★</span>
+            <span class="stat__label">рейтинг</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">3+</span>
+            <span class="stat__label">роки в Іспанії</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card hero__card--main">
+          <div class="product-showcase">
+            <div class="product-showcase__grid">
+              <div class="product-item product-item--featured">
+                <span class="product-item__emoji">🥩</span>
+                <span class="product-item__name">Ковбаси</span>
+              </div>
+              <div class="product-item">
+                <span class="product-item__emoji">🧀</span>
+                <span class="product-item__name">Сири</span>
+              </div>
+              <div class="product-item">
+                <span class="product-item__emoji">🍞</span>
+                <span class="product-item__name">Хліб</span>
+              </div>
+              <div class="product-item">
+                <span class="product-item__emoji">🥒</span>
+                <span class="product-item__name">Консерви</span>
+              </div>
+              <div class="product-item">
+                <span class="product-item__emoji">🍯</span>
+                <span class="product-item__name">Мед</span>
+              </div>
+              <div class="product-item">
+                <span class="product-item__emoji">🧈</span>
+                <span class="product-item__name">Молочне</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__card hero__card--float hero__card--float-1">
+          <span>🚚</span> Доставка по Торрев'єсі
+        </div>
+        <div class="hero__card hero__card--float hero__card--float-2">
+          <span>✅</span> Щодня свіжий хліб
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__image-wrap">
+          <div class="about__image-placeholder">
+            <span class="about__image-emoji">🏪</span>
+            <div class="about__image-tag">Наш магазин</div>
+          </div>
+          <div class="about__badge-wrap">
+            <div class="about__badge">
+              <span class="about__badge-icon">🇺🇦</span>
+              <div>
+                <strong>Українські продукти</strong>
+                <small>Прямо з дому</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__content">
+          <div class="section-label">Про нас</div>
+          <h2 class="section-title">Ваш шматочок<br /><span class="accent">України в Іспанії</span></h2>
+          <p class="about__text">
+            <strong>Калина Експрес</strong> — це улюблений магазин для всіх українців у Торрев'єсі.
+            Ми привозимо справжні смаки з рідного краю: домашні ковбаси, свіжий чорний хліб,
+            сметану, творог, мариновані огірки, гречку і ще сотні товарів.
+          </p>
+          <p class="about__text">
+            Тут ви зустрінете рідну мову, тепло й турботу. Ми не просто магазин —
+            ми маленька Україна на березі Середземного моря.
+          </p>
+          <div class="about__features">
+            <div class="feature">
+              <div class="feature__icon">🌿</div>
+              <div>
+                <strong>Натуральні продукти</strong>
+                <p>Без зайвих консервантів, як вдома</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">✈️</div>
+              <div>
+                <strong>Регулярні поставки</strong>
+                <p>Свіжий товар щотижня</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">💬</div>
+              <div>
+                <strong>Обслуговування по-українськи</strong>
+                <p>Все зрозуміло, все по-своєму</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products section section--gray" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Асортимент</div>
+        <h2 class="section-title">Наші категорії</h2>
+        <p class="section-desc">Широкий вибір українських продуктів — від м'ясних виробів до солодощів</p>
+      </div>
+      <div class="products__grid">
+        <div class="product-card">
+          <div class="product-card__icon">🥩</div>
+          <h3 class="product-card__title">М'ясні вироби</h3>
+          <p class="product-card__desc">Ковбаси, сало, буженина, тушонка, паштети. Усе як вдома.</p>
+          <ul class="product-card__list">
+            <li>Краківська ковбаса</li>
+            <li>Сало з перцем</li>
+            <li>Докторська</li>
+            <li>Тушкована яловичина</li>
+          </ul>
+        </div>
+        <div class="product-card product-card--featured">
+          <div class="product-card__badge">Популярне</div>
+          <div class="product-card__icon">🍞</div>
+          <h3 class="product-card__title">Хліб та випічка</h3>
+          <p class="product-card__desc">Чорний хліб, бородинський, пшеничний. Свіжий щодня.</p>
+          <ul class="product-card__list">
+            <li>Чорний хліб</li>
+            <li>Бородинський</li>
+            <li>Батон нарізний</li>
+            <li>Пряники та печиво</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <div class="product-card__icon">🧀</div>
+          <h3 class="product-card__title">Молочні продукти</h3>
+          <p class="product-card__desc">Сметана, творог, кефір, масло, сири — справжній смак молока.</p>
+          <ul class="product-card__list">
+            <li>Сметана 20%</li>
+            <li>Творог зернистий</li>
+            <li>Масло вершкове</li>
+            <li>Кефір 3.2%</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <div class="product-card__icon">🥒</div>
+          <h3 class="product-card__title">Консервація</h3>
+          <p class="product-card__desc">Мариновані огірки, помідори, гриби, варення та соки.</p>
+          <ul class="product-card__list">
+            <li>Огірки мариновані</li>
+            <li>Помідори власного соку</li>
+            <li>Гриби в маслі</li>
+            <li>Варення домашнє</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <div class="product-card__icon">🌾</div>
+          <h3 class="product-card__title">Крупи та борошно</h3>
+          <p class="product-card__desc">Гречка, пшоно, манка, вівсянка, борошно першого ґатунку.</p>
+          <ul class="product-card__list">
+            <li>Гречана крупа</li>
+            <li>Борошно пшеничне</li>
+            <li>Вівсянка Геркулес</li>
+            <li>Пшоно золоте</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <div class="product-card__icon">🍬</div>
+          <h3 class="product-card__title">Солодощі</h3>
+          <p class="product-card__desc">Цукерки Рошен, халва, козинаки, вафлі та шоколад.</p>
+          <ul class="product-card__list">
+            <li>Цукерки Рошен</li>
+            <li>Халва соняшникова</li>
+            <li>Вафлі Артек</li>
+            <li>Козинаки</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us section" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Переваги</div>
+        <h2 class="section-title">Чому обирають нас?</h2>
+      </div>
+      <div class="why-us__grid">
+        <div class="why-card">
+          <div class="why-card__num">01</div>
+          <div class="why-card__icon">🏠</div>
+          <h3>Рідний смак</h3>
+          <p>Ті самі бренди та рецептури, що ви знаєте з дитинства. Жодних компромісів.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">02</div>
+          <div class="why-card__icon">📦</div>
+          <h3>Свіжість гарантована</h3>
+          <p>Поставки тричі на тиждень. Хліб та молочні продукти — щодня свіжі.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">03</div>
+          <div class="why-card__icon">💰</div>
+          <h3>Чесні ціни</h3>
+          <p>Без зайвих накруток. Доступно для всіх — від студентів до сімей.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">04</div>
+          <div class="why-card__icon">🚚</div>
+          <h3>Доставка додому</h3>
+          <p>Доставляємо по Торрев'єсі та навколишніх районах. Замовте телефоном.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">05</div>
+          <div class="why-card__icon">🤝</div>
+          <h3>Спільнота</h3>
+          <p>Більше ніж магазин — місце зустрічі українців. Тут вас зрозуміють.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">06</div>
+          <div class="why-card__icon">📱</div>
+          <h3>Замовлення онлайн</h3>
+          <p>Пишіть у WhatsApp або Telegram — відповімо швидко і допоможемо з вибором.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section section--blue">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label section-label--light">Відгуки</div>
+        <h2 class="section-title section-title--light">Що кажуть наші покупці</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            «Нарешті знайшла справжній чорний хліб і сметану! Це неможливо передати —
+            як ніби додому повернулась навіть тут, в Іспанії.»
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">О</div>
+            <div>
+              <strong>Оксана</strong>
+              <small>Торрев'єса</small>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-card--featured">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            «Ходжу сюди кожен тиждень. Хлопці завжди привітні, асортимент великий,
+            ціни нормальні. Краківська ковбаса — найкраща, яку я куштував за кордоном!»
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">В</div>
+            <div>
+              <strong>Василь</strong>
+              <small>Лос Монтесінос</small>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            «Дуже зручно, що є доставка. Замовила через WhatsApp — привезли за 2 години.
+            Гречка, огірки, халва — все є. Дякую Калині Експрес!»
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">Н</div>
+            <div>
+              <strong>Наталя</strong>
+              <small>Торрев'єса Центр</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__info">
+          <div class="section-label">Контакти</div>
+          <h2 class="section-title">Приходьте<br /><span class="accent">до нас!</span></h2>
+          <p class="contact__desc">
+            Ми знаходимося у самому серці Торрев'єси.
+            Зручне розташування, паркування поруч.
+          </p>
+          <div class="contact__details">
+            <div class="contact__item">
+              <div class="contact__item-icon">📍</div>
+              <div>
+                <strong>Адреса</strong>
+                <p>Torrevieja, Alicante, España</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__item-icon">🕐</div>
+              <div>
+                <strong>Графік роботи</strong>
+                <p>Пн–Сб: 9:00 – 20:00</p>
+                <p>Нд: 10:00 – 18:00</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__item-icon">📞</div>
+              <div>
+                <strong>Телефон / WhatsApp</strong>
+                <p><a href="tel:+34600000000">+34 600 000 000</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__item-icon">📱</div>
+              <div>
+                <strong>Telegram</strong>
+                <p><a href="https://t.me/kalynaexpress">@kalynaexpress</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="contact__social">
+            <a href="#" class="social-btn social-btn--instagram">📸 Instagram</a>
+            <a href="#" class="social-btn social-btn--facebook">👍 Facebook</a>
+          </div>
+        </div>
+        <div class="contact__map">
+          <div class="map-placeholder">
+            <div class="map-placeholder__inner">
+              <span class="map-placeholder__pin">📍</span>
+              <strong>Калина Експрес</strong>
+              <p>Torrevieja, Alicante</p>
+              <a href="https://maps.google.com" target="_blank" class="btn btn--primary btn--sm">
+                Відкрити в Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo">
+          <span class="logo__icon">🌿</span>
+          <div class="logo__text">
+            <span class="logo__name">Калина Експрес</span>
+            <span class="logo__tagline">Українські продукти</span>
+          </div>
+        </a>
+        <p class="footer__brand-desc">Магазин українських продуктів у Торрев'єсі, Іспанія</p>
+      </div>
+      <div class="footer__links">
+        <h4>Навігація</h4>
+        <a href="#about">Про нас</a>
+        <a href="#products">Продукти</a>
+        <a href="#why-us">Переваги</a>
+        <a href="#contact">Контакти</a>
+      </div>
+      <div class="footer__links">
+        <h4>Продукти</h4>
+        <a href="#products">М'ясні вироби</a>
+        <a href="#products">Хліб та випічка</a>
+        <a href="#products">Молочні продукти</a>
+        <a href="#products">Солодощі</a>
+      </div>
+      <div class="footer__contact">
+        <h4>Зв'яжіться</h4>
+        <p>📞 +34 600 000 000</p>
+        <p>📱 @kalynaexpress</p>
+        <p>📍 Torrevieja, España</p>
+        <div class="footer__flags">🇺🇦 &nbsp; 🇪🇸</div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2024 Калина Експрес · Torrevieja · Слава Україні! 🇺🇦</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="scroll-top" id="scrollTop" aria-label="Нагору">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
