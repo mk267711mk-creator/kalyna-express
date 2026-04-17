@@ -12,14 +12,14 @@
     </linearGradient>
   </defs>
   <g>
-    <path d="M53 14C51 23 50 31 50 39" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
-    <path d="M49 38C40 44 33 55 31 66" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
-    <path d="M51 38C60 43 67 54 69 67" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
-    <path d="M56 15C65 10 76 12 83 21C75 26 64 26 56 22C53 20 53 17 56 15Z" fill="url(#footerLeafGreen)"/>
-    <circle cx="30" cy="73" r="20" fill="url(#footerCherryRed)"/>
-    <circle cx="66" cy="78" r="22" fill="url(#footerCherryRed)"/>
-    <circle cx="24" cy="67" r="6" fill="#FFD0D4" fill-opacity="0.7"/>
-    <circle cx="59" cy="70" r="7" fill="#FFD0D4" fill-opacity="0.65"/>
+    <path d="M50 16C50 24 49 31 48 38" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M48 38C41 42 35 51 31 63" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M48 38C57 43 64 52 68 64" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M55 17C64 10 76 11 83 19C76 24 65 25 57 23C53 22 52 19 55 17Z" fill="url(#footerLeafGreen)"/>
+    <circle cx="30" cy="74" r="18" fill="url(#footerCherryRed)"/>
+    <circle cx="66" cy="74" r="18" fill="url(#footerCherryRed)"/>
+    <circle cx="24" cy="68" r="5.5" fill="#FFD0D4" fill-opacity="0.7"/>
+    <circle cx="60" cy="68" r="5.5" fill="#FFD0D4" fill-opacity="0.65"/>
   </g>
   <text x="110" y="55" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0.5">Kalyna Express</text>
   <text x="110" y="84" fill="rgba(255,255,255,0.72)" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500">Ukrainian products in Torrevieja</text>
