@@ -12,11 +12,10 @@
     </linearGradient>
   </defs>
   <g>
-    <path d="M48 56C48 39 54 23 67 12" stroke="#4D7E2A" stroke-width="6" stroke-linecap="round"/>
-    <path d="M67 12C69 22 75 30 86 34" stroke="#4D7E2A" stroke-width="6" stroke-linecap="round"/>
-    <path d="M48 56C45 38 35 25 20 18" stroke="#4D7E2A" stroke-width="6" stroke-linecap="round"/>
-    <path d="M20 18C25 28 24 37 18 45" stroke="#4D7E2A" stroke-width="6" stroke-linecap="round"/>
-    <path d="M63 20C71 13 82 13 92 20C84 28 71 32 60 30C58 26 59 22 63 20Z" fill="url(#leafGreen)"/>
+    <path d="M56 12C55 19 52 27 50 35C48 42 47 48 48 54" stroke="#4D7E2A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M48 54C40 49 31 49 24 55C18 60 14 66 13 72" stroke="#4D7E2A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M49 53C57 49 66 50 73 56C79 61 83 67 84 74" stroke="#4D7E2A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M56 16C64 10 77 12 85 23C76 28 64 29 55 24C53 21 53 18 56 16Z" fill="url(#leafGreen)"/>
     <circle cx="30" cy="73" r="20" fill="url(#cherryRed)"/>
     <circle cx="66" cy="78" r="22" fill="url(#cherryRed)"/>
     <circle cx="24" cy="67" r="6" fill="#FFB0B5" fill-opacity="0.6"/>
