@@ -1,0 +1,27 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="footerLogoTitle footerLogoDesc">
+  <title id="footerLogoTitle">Kalyna Express footer logo</title>
+  <desc id="footerLogoDesc">White Kalyna Express wordmark with cherries icon for dark backgrounds.</desc>
+  <defs>
+    <linearGradient id="footerCherryRed" x1="22" y1="44" x2="76" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B6B"/>
+      <stop offset="1" stop-color="#D1192F"/>
+    </linearGradient>
+    <linearGradient id="footerLeafGreen" x1="54" y1="18" x2="84" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#92D364"/>
+      <stop offset="1" stop-color="#4D9B2F"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M48 56C48 39 54 23 67 12" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M67 12C69 22 75 30 86 34" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M48 56C45 38 35 25 20 18" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 18C25 28 24 37 18 45" stroke="#7DBB54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M63 20C71 13 82 13 92 20C84 28 71 32 60 30C58 26 59 22 63 20Z" fill="url(#footerLeafGreen)"/>
+    <circle cx="30" cy="73" r="20" fill="url(#footerCherryRed)"/>
+    <circle cx="66" cy="78" r="22" fill="url(#footerCherryRed)"/>
+    <circle cx="24" cy="67" r="6" fill="#FFD0D4" fill-opacity="0.7"/>
+    <circle cx="59" cy="70" r="7" fill="#FFD0D4" fill-opacity="0.65"/>
+  </g>
+  <text x="110" y="55" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0.5">Kalyna Express</text>
+  <text x="110" y="84" fill="rgba(255,255,255,0.72)" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500">Ukrainian products in Torrevieja</text>
+</svg>

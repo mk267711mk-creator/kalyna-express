@@ -14,7 +14,7 @@
   <meta property="og:url" content="https://kalynaexpress.es" />
   <meta property="og:title" content="Kalyna Express — Украинские продукты в Торревьехе" />
   <meta property="og:description" content="Гречка, краковская колбаса, сметана, чёрный хлеб, Рошен — всё, чего не найти в испанских магазинах. Торревьеха, Аликанте." />
-  <meta property="og:image" content="https://kalynaexpress.es/logo.png" />
+  <meta property="og:image" content="https://kalynaexpress.es/1/Captura%20de%20pantalla%202026-04-17%20141847.png" />
   <meta property="og:locale" content="ru_RU" />
   <meta property="og:locale:alternate" content="uk_UA" />
   <meta property="og:locale:alternate" content="es_ES" />
@@ -22,7 +22,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Kalyna Express — Украинские продукты в Торревьехе" />
   <meta name="twitter:description" content="Гречка, колбасы, сметана, хлеб — как дома. Торревьеха, Испания. +34 685 742 111" />
-  <meta name="twitter:image" content="https://kalynaexpress.es/logo.png" />
+  <meta name="twitter:image" content="https://kalynaexpress.es/1/Captura%20de%20pantalla%202026-04-17%20141847.png" />
   <!-- Schema.org LocalBusiness -->
   <script type="application/ld+json">
   {
@@ -36,12 +36,11 @@
     "email": "Kalyna.express.es@gmail.com",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "C. José Martínez Ruiz Azorín 11",
       "addressLocality": "Torrevieja",
       "addressRegion": "Alicante",
-      "postalCode": "03180",
       "addressCountry": "ES"
     },
-    "geo": { "@type": "GeoCoordinates", "latitude": 37.9784, "longitude": -0.6820 },
     "openingHoursSpecification": [
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "20:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "18:00" }
@@ -62,7 +61,7 @@
   <header class="header" id="header">
     <div class="container header__inner">
       <a href="#" class="logo">
-        <img src="logo.png" alt="Kalyna Express" class="logo__img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <img src="logo.svg" alt="Kalyna Express" class="logo__img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
         <div class="logo__text logo__text--fallback" style="display:none">
           <span class="logo__icon">🍒</span>
           <div>
@@ -189,9 +188,20 @@
     <div class="container">
       <div class="about__inner">
         <div class="about__image-wrap">
-          <div class="about__image-placeholder">
-            <span class="about__image-emoji">🏪</span>
+          <figure class="about__image-placeholder about__image-placeholder--photo">
+            <img
+              src="1/Captura%20de%20pantalla%202026-04-17%20141847.png"
+              alt="Асортимент Kalyna Express"
+              class="about__image-photo"
+              loading="lazy"
+            />
             <div class="about__image-tag" data-i18n="about_image_tag">Наш магазин</div>
+          </figure>
+          <div class="about__thumbs" aria-label="Фото асортименту Kalyna Express">
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141730.png" alt="Соуси та майонези в Kalyna Express" class="about__thumb" loading="lazy" />
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141745.png" alt="Солодощі в Kalyna Express" class="about__thumb" loading="lazy" />
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141758.png" alt="Ікра та делікатеси в Kalyna Express" class="about__thumb" loading="lazy" />
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141814.png" alt="Напої в Kalyna Express" class="about__thumb" loading="lazy" />
           </div>
           <div class="about__badge-wrap">
             <div class="about__badge">
@@ -253,7 +263,9 @@
       </div>
       <div class="products__grid">
         <div class="product-card">
-          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1544025162-d76694265947?w=500&h=200&fit=crop&q=80')" role="img" aria-label="М'ясні вироби"></div>
+          <div class="product-card__cover" role="img" aria-label="Реальний асортимент Kalyna Express">
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141730.png" alt="Реальний асортимент Kalyna Express" loading="lazy" />
+          </div>
           <div class="product-card__icon">🥩</div>
           <h3 class="product-card__title" data-i18n="cat1_title">М'ясні вироби</h3>
           <p class="product-card__desc" data-i18n="cat1_desc">Ковбаси, сало, буженина, тушонка, паштети. Усе як вдома.</p>
@@ -265,7 +277,9 @@
           </ul>
         </div>
         <div class="product-card product-card--featured">
-          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Хліб"></div>
+          <div class="product-card__cover" role="img" aria-label="Реальний асортимент Kalyna Express">
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141745.png" alt="Реальний асортимент Kalyna Express" loading="lazy" />
+          </div>
           <div class="product-card__badge" data-i18n="prod_popular_badge">Популярне</div>
           <div class="product-card__icon">🍞</div>
           <h3 class="product-card__title" data-i18n="cat2_title">Хліб та випічка</h3>
@@ -278,7 +292,9 @@
           </ul>
         </div>
         <div class="product-card">
-          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1559561853-08451507cbe7?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Молочні продукти"></div>
+          <div class="product-card__cover" role="img" aria-label="Реальний асортимент Kalyna Express">
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141758.png" alt="Реальний асортимент Kalyna Express" loading="lazy" />
+          </div>
           <div class="product-card__icon">🧀</div>
           <h3 class="product-card__title" data-i18n="cat3_title">Молочні продукти</h3>
           <p class="product-card__desc" data-i18n="cat3_desc">Сметана, творог, кефір, масло, сири — справжній смак молока.</p>
@@ -290,7 +306,9 @@
           </ul>
         </div>
         <div class="product-card">
-          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1534483509719-3feaee7c30da?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Консервація"></div>
+          <div class="product-card__cover" role="img" aria-label="Реальний асортимент Kalyna Express">
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141758.png" alt="Реальний асортимент Kalyna Express" loading="lazy" />
+          </div>
           <div class="product-card__icon">🥒</div>
           <h3 class="product-card__title" data-i18n="cat4_title">Консервація</h3>
           <p class="product-card__desc" data-i18n="cat4_desc">Мариновані огірки, помідори, гриби, варення та соки.</p>
@@ -302,7 +320,9 @@
           </ul>
         </div>
         <div class="product-card">
-          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Крупи"></div>
+          <div class="product-card__cover" role="img" aria-label="Реальний асортимент Kalyna Express">
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141814.png" alt="Реальний асортимент Kalyna Express" loading="lazy" />
+          </div>
           <div class="product-card__icon">🌾</div>
           <h3 class="product-card__title" data-i18n="cat5_title">Крупи та борошно</h3>
           <p class="product-card__desc" data-i18n="cat5_desc">Гречка, пшоно, манка, вівсянка, борошно першого ґатунку.</p>
@@ -314,7 +334,9 @@
           </ul>
         </div>
         <div class="product-card">
-          <div class="product-card__cover" style="background-image:url('https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&h=200&fit=crop&q=80')" role="img" aria-label="Солодощі"></div>
+          <div class="product-card__cover" role="img" aria-label="Реальний асортимент Kalyna Express">
+            <img src="1/Captura%20de%20pantalla%202026-04-17%20141847.png" alt="Реальний асортимент Kalyna Express" loading="lazy" />
+          </div>
           <div class="product-card__icon">🍬</div>
           <h3 class="product-card__title" data-i18n="cat6_title">Солодощі</h3>
           <p class="product-card__desc" data-i18n="cat6_desc">Цукерки Рошен, халва, козинаки, вафлі та шоколад.</p>
@@ -359,7 +381,7 @@
           <div class="why-card__num">04</div>
           <div class="why-card__icon">🚚</div>
           <h3 data-i18n="why4_title">Доставка додому</h3>
-          <p data-i18n="why4_desc">Доставляємо по Торрев'єсі та навколишніх районах. Замовте телефоном.</p>
+          <p data-i18n="why4_desc">Доставляємо по Торрев'єсі та навколишніх районах. Замовляйте у WhatsApp або Telegram.</p>
         </div>
         <div class="why-card">
           <div class="why-card__num">05</div>
@@ -417,7 +439,7 @@
         <div class="testimonial-card">
           <div class="testimonial-card__stars">★★★★★</div>
           <p class="testimonial-card__text" data-i18n="rev3_text">
-            «Дуже зручно, що є доставка. Замовила через WhatsApp — привезли за 2 години.
+            «Дуже зручно, що є доставка. Замовила через WhatsApp — привезли швидко.
             Гречка, огірки, халва — все є. Дякую Калині Експрес!»
           </p>
           <div class="testimonial-card__author">
@@ -448,7 +470,7 @@
               <div class="contact__item-icon">📍</div>
               <div>
                 <strong data-i18n="addr_label">Адреса</strong>
-                <p>Torrevieja, Alicante, España</p>
+                <p>C. José Martínez Ruiz Azorín 11, Torrevieja, Alicante, España</p>
               </div>
             </div>
             <div class="contact__item">
@@ -483,14 +505,14 @@
         <div class="contact__map">
           <div class="map-wrap">
             <iframe
-              src="https://maps.google.com/maps?q=Torrevieja,+Alicante,+Spain&z=14&output=embed"
+              src="https://maps.google.com/maps?q=C.%20Jos%C3%A9%20Mart%C3%ADnez%20Ruiz%20Azor%C3%ADn%2011,%20Torrevieja,%20Alicante,%20Spain&z=17&output=embed"
               width="100%" height="100%"
               style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               title="Kalyna Express на карте"></iframe>
           </div>
           <div class="map-actions">
-            <a href="https://maps.google.com/maps?q=Torrevieja,+Alicante,+Spain" target="_blank" class="btn btn--primary btn--sm" data-i18n="map_link">
+            <a href="https://maps.google.com/maps?q=C.%20Jos%C3%A9%20Mart%C3%ADnez%20Ruiz%20Azor%C3%ADn%2011,%20Torrevieja,%20Alicante,%20Spain" target="_blank" class="btn btn--primary btn--sm" data-i18n="map_link">
               📍 Відкрити в Google Maps
             </a>
             <a href="https://wa.me/34685742111?text=Hola!%20Как%20к%20вам%20добраться%3F" target="_blank" class="btn btn--whatsapp btn--sm">
@@ -508,7 +530,7 @@
     <div class="container footer__inner">
       <div class="footer__brand">
         <a href="#" class="logo">
-          <img src="logo.png" alt="Kalyna Express" class="logo__img logo__img--footer" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <img src="logo-footer.svg" alt="Kalyna Express" class="logo__img logo__img--footer" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
           <div class="logo__text logo__text--fallback" style="display:none">
             <span class="logo__icon">🍒</span>
             <div>
@@ -537,13 +559,13 @@
         <h4 data-i18n="footer_contact_title">Зв'яжіться</h4>
         <p>📞 +34 685 742 111</p>
         <p>📱 @kalynaexpress</p>
-        <p>📍 Torrevieja, España</p>
+        <p>📍 C. José Martínez Ruiz Azorín 11</p>
         <div class="footer__flags">🇺🇦 &nbsp; 🇪🇸</div>
       </div>
     </div>
     <div class="footer__bottom">
       <div class="container">
-        <p data-i18n="footer_copyright">© 2024 Калина Експрес · Torrevieja · Слава Україні! 🇺🇦</p>
+        <p data-i18n="footer_copyright">© 2026 Калина Експрес · Torrevieja · Слава Україні! 🇺🇦</p>
       </div>
     </div>
   </footer>
